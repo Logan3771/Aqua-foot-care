@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Aqua Foot Spa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #f7fbfb;
+      color: #333;
+    }
+    header {
+      background: #91e5d2;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #fff;
+      padding: 15px 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #00796b;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00796b;
+      margin-bottom: 20px;
+    }
+    .pricing-table {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .price-card {
+      background: #e0f7fa;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      width: 220px;
+      text-align: center;
+    }
+    .price-card h3 {
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 15px;
+      background: #00796b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      background: #00796b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Aqua Foot Spa</h1>
+    <p>Affordable luxury, just for your feet.</p>
+    <a href="#booking" class="btn">Book Now</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>The Aqua Foot Spa is your mini getaway for tired feet. We offer quick, relaxing treatments using quality products — perfect for busy people who need a break. Our goal is to help you relax, refresh, and feel your best.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Foot Soaks with essential oils</li>
+      <li>Hot Stone Therapy</li>
+      <li>Hydration Wraps</li>
+      <li>Custom Relaxation Treatments</li>
+    </ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-table">
+      <div class="price-card">
+        <h3>Basic Soak</h3>
+        <p>15 min – $25</p>
+      </div>
+      <div class="price-card">
+        <h3>Premium Massage</h3>
+        <p>30 min – $45</p>
+      </div>
+      <div class="price-card">
+        <h3>Deluxe Spa</h3>
+        <p>40 min – $65</p>
+      </div>
+      <div class="price-card">
+        <h3>Monthly Membership</h3>
+        <p>Unlimited Soaks – $120</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Visit</h2>
+    <p>Book your foot spa treatment easily online. Walk-ins are welcome too!</p>
+    <a href="#" class="btn">Book Appointment</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> hello@aquafootspa.com</p>
+    <p><strong>Phone:</strong> (555) 123-4567</p>
+    <p><strong>Instagram & TikTok:</strong> @aquafootspa</p>
+    <p><strong>Visit us:</strong> At your local shopping center!</p>
+  </section>
+
+  <footer>
+    © 2025 The Aqua Foot Spa – Relax. Rejuvenate. Repeat.
+  </footer>
+
+</body>
+</html>
